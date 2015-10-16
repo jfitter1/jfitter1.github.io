@@ -1,10 +1,26 @@
 h1 {
-    color:rgba(0,0,0,.5);
+    color:black;
+    text-align: center
+}
 
 img {
     opacity: .5;
-    width: 50%;
+    width: 10%;
 }
 body {
-    background: url(../img/stardust.png);
+   ;
+}
+a { 
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    
+    margin-left: 10px;
+    padding: 8px;
+    
+    
 }
