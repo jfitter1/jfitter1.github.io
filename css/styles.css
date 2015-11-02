@@ -28,10 +28,19 @@ h1 {
     
     
 }
-
+.divCenter
+{
+text-align: center;  
+magin top: 50px; 
+}
     
-
-h2 {
+.h2resume{
+    margin-top: 100px;
+    text-align: center;
+    border-bottom: 2px solid;
+    
+}
+.h2style {
     font-size: 24px;
     text-align: center;
     magin-bottom: 20px;
