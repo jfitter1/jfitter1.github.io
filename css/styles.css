@@ -3,28 +3,52 @@
 HEADLINES
 
 *****************************************************************/
+/* *********************************
+FONTS
+
+font-family: 'Roboto', sans-serif;
+************************************/
 * {
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header{
-    height:450px;
-    background:url(../img/header.jpg) center center;
-    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height:300px;
+    background:black;
+    opacity: .75;
 }
 
-h1 {
-    margin-top: 0;
+header .h1_header {
+    
+    width: 100%;
+    display: block;
+    margin-top: -2em;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 72px;
-    weight: 700;  
+    font-size: 4em;  
     color:ghostwhite;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-top: 100px;
+    margin-bottom: 15px;
     letter-spacing: 0.05em;
     clear: both;
-    text-align: center;
-    border-bottom: 2px solid ghostwhite;
+    text-align: center
+ 
+
     
     
 }
@@ -41,6 +65,7 @@ magin top: 50px;
     
 }
 .h2style {
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     text-align: center;
     magin-bottom: 20px;
@@ -49,9 +74,15 @@ magin top: 50px;
 }
 
 
+
+/***************************************************************
+
+Border
+
+*****************************************************************/
+
 html, body {
-    background: #eff0f1;
-       
+background: url(../img/squared_metal.png);
 }
 
 /*****************************************************************
@@ -59,17 +90,28 @@ html, body {
 IMAGES
 
 ******************************************************************/
-
-img {
-    margin-top: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: 300px;
-
+.logo_footer {
+    margin-top: 1.3em;
+    margin-left: 10em;
+    padding: 10px;
+    width:80px;
+    height: 80px;
+    
+    
 }
 
+
+.logo_header{
+    display: inline-block;
+    width:100%;
+    height:auto;
+    position: relative;
+    float: left;
+    padding: .625rem;
+    width:7.5em;
+    height: 7.5em;
+
+}
 .imgcircle
 {
 border-radius: 50%;
@@ -84,25 +126,35 @@ NAVIGATION
     text-align: left;
 }
 
-
-
-a { 
-    
-    text-decoration: none;
-    color: white
-}
 li{
+    font-family: 'Roboto', sans-serif;
     list-style: none;
     display:inline-block;
-    margin-right: 20px;
-    padding: 8px; 
-    font-size: 25px;
+    margin-right: 10px;
+    padding: 4px; 
+    font-size:1.3em;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: black;
+
+/*****************************************************************
+
+BUTTONS
+
+******************************************************************/
+
+a {
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid;
+  color: #fff;
+  line-height: 1.4;
+  padding: .25em;
+  text-decoration: none;
 }
+p a:hover {
+  background: white;
+  color: #E1332D;
+}
+
 
 
 /*****************************************************************
@@ -118,14 +170,27 @@ FOOTER
 
 ******************************************************************/
 
+.contact{
+    width: 100%;
+    height:0;
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+
+}
+
 #footer {
-    background: url(../img/header.jpg)  center;
-    background-size: cover;
+    width: 100%;
+    height:0;
+    background:black;
     clear: both;
     position: relative;
     z-index: 10;
-    height: 3em;
+    height: 10em;
     margin-top: -3em;
+    opacity: .5;
 }
 
 #content { padding-bottom: 3em; }
