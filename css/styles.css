@@ -14,19 +14,7 @@ font-family: 'Roboto', sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 header{
-    position: fixed;
     width: 100%;
     height:300px;
     background:black;
@@ -36,7 +24,7 @@ header{
 header .h1_header {
     
     width: 100%;
-    display: block;
+    display: inline-block;
     margin-top: -2em;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -44,6 +32,7 @@ header .h1_header {
     color:ghostwhite;
     text-transform: uppercase;
     margin-bottom: 15px;
+    margin-top: 50px;
     letter-spacing: 0.05em;
     clear: both;
     text-align: center
@@ -100,7 +89,7 @@ IMAGES
     
 }
 
-
+/*
 .logo_header{
     display: inline-block;
     width:100%;
@@ -110,7 +99,7 @@ IMAGES
     padding: .625rem;
     width:7.5em;
     height: 7.5em;
-
+*/
 }
 .imgcircle
 {
