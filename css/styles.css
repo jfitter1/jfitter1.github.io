@@ -7,6 +7,7 @@ HEADLINES
 FONTS
 
 font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
 ************************************/
 * {
     margin: 0;
@@ -43,22 +44,22 @@ header .h1_header {
 }
 .divCenter
 {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 7em;
+    width: 100em;
 }
     
 .h2resume{
-
-    border-bottom: 2px solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
     width: 5em;
     text-align: center;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    width: 25em;
 }
 .h2style {
     font-family: 'Roboto', sans-serif;
@@ -102,10 +103,21 @@ background: url(../img/squared_metal.png);
     border-bottom: 2px solid;
     width: 28em;
 }
+.b_border_resume {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px; 
+    margin-top: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+    width: 28em;
+}
+
 
 .t_border {
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: -160px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -117,7 +129,22 @@ background: url(../img/squared_metal.png);
 IMAGES
 
 ******************************************************************/
+.SFCC_LOGO{
+    margin-top: 100px;
+    margin-right: 750px;
+    float: right;
+    width 100px;
+    height: 200px;
+    
+}
+.EWU_LOGO{
+    margin-top: 100px;
+    margin-left: 750px;
+    float: left;
+    width 100px;
+    height: 200px;
 
+}
 
 
 .imgcircle
