@@ -53,13 +53,19 @@ header .h1_header {
 }
     
 .h2resume{
-    font-family: 'Roboto', sans-serif;
-    font-size: 65px;
-    width: 5em;
+text-align: center;
+margin-top: 50px;
+    margin-bottom: 50px;
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+    
+}
+.sub_resume {
     text-align: center;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
 }
 .h2style {
     font-family: 'Roboto', sans-serif;
@@ -111,7 +117,7 @@ background: url(../img/squared_metal.png);
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid;
-    width: 28em;
+    width: 20em;
 }
 
 
@@ -131,25 +137,25 @@ IMAGES
 ******************************************************************/
 
 .EWU_LOGO{
-display: block;
-text-align: center;
+ 
+    display: block;
+    text-align: center;
     margin-top: 100px;
-margin-left: auto;
-margin-right: auto;
-    width 150px;
+    margin-left: auto;
+    margin-right: auto;
+        width 150px;
     height: 275px;
-
 }
 
 
 .imgcircle
 {
-display: block;
-margin-top: 400px;
-margin-left: auto;
-margin-right: auto;
-width: 17em;
-border-radius: 50%;
+    display: block;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+    border-radius: 50%;
 }
 
 /*****************************************************************
