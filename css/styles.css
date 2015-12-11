@@ -91,6 +91,36 @@ letter-spacing: 1.5px;
     letter-spacing: 1px;
     
 }
+.bq2{
+    line-height: 50px;
+    font-family: 'Cousine', bold;
+    font-weight: bold;
+    font-style: bold italic;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    letter-spacing: 1px;
+
+}
+.bq3{
+    line-height: 28px;
+    font-style: italic;
+    font-family: 'Cousine',;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    letter-spacing: 1px;
+
+}
+
 .h2resume_personal{
     color: red;
     text-align: center;
@@ -253,10 +283,11 @@ a {
 
 /*****************************************************************
 
-SOCIAL MEDIA ICONS
+ARROW
 
 ******************************************************************/
 
+.arrow_down()
 /*****************************************************************
 
 FOOTER
@@ -272,6 +303,33 @@ FOOTER
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     margin-top: 10px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.contact_info
+{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-top: 3px;
+    color: red;
+    text-align: center;
+    border-bottom: 2px solid aliceblue;
+    width: 10em;
+}
+.contact_info_1
+{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-top: 1px;
     color: aliceblue;
     text-align: center;
 

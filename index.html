@@ -3,11 +3,14 @@
   <head>
      <title>Jacob Fitterer</title>
       <meta charset="UTF-8">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script type="text/javascript" src="JS/smoothscroll.js"></script>
+      
       <link rel="stylesheet" href="css/gallery.theme.css">
       <link rel="stylesheet" href="css/gallery.min.css">
 
       <link rel="stylesheet" href="css/styles.css" />
-      
+      <link href='https://fonts.googleapis.com/css?family=Cousine:700italic,400italic,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     </head>
@@ -15,10 +18,10 @@
 
       <nav class="wrap" role='navigation'>
           <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#aboutjump">About</a></li>
-              <li><a href="#resumejump">Resume</a></li>
-              <li><a href="#contactjump" href="#">Contact</a></li>
+              <li><a href="index.html" class="smoothScroll" id="home">Home</a></li>
+              <li><a href="#aboutjump" class="smoothScroll">About</a></li>
+              <li><a href="#resumejump" class="smoothScroll">Resume</a></li>
+              <li><a href="#contactjump" class="smoothScroll">Contact</a></li>
           </ul>
       </nav>  
 
@@ -29,7 +32,6 @@
 <div id="right"></div>
     
   </header>
-
   <body >
     
 
@@ -57,10 +59,11 @@
               </div>
               
               </div>
+
+
           
-
-
-    
+          <blockquote class="bq2">“It’s through mistakes that you actually can grow. You have to get bad in order to get good.”</blockquote>
+        <blockquote class="bq3"> Paula Scher </blockquote>
     <div>
     <img id="aboutjump" class="imgcircle" src="/img/profile.jpg" alt="About me picture"  >          
     <div class="t_border"></div>
@@ -131,15 +134,20 @@
      </div>
      <div id="footer"> <nav class="wrap" role='navigation'>
          <ul>
-             <li><a class="btn-2" href="index.html">Home</a></li>
-             <li><a href="#aboutjump">About</a></li>
-             <li><a href="#resumejump">Resume</a></li>
-            <div id="contactjump"class="contact">           
-             509-979-4534     
-                     </div>
-            <div class="contact">           
-             Jfitterer1@hotmail.com
+             <li><a href="#home" class="smoothScroll">Home</a></li>
+             <li><a href="#aboutjump" class="smoothScroll">About</a></li>
+             <li><a href="#resumejump" class="smoothScroll">Resume</a></li>
+             
+             
+             <div class="contact_info" id="contactjump" class="smoothScroll" >Contact Information</div>
+             <div class= "contact_info_1">           
+                 Jfitterer112@hotmail.com
              </div>
+
+             <div class="contact_info_1">           
+             509-993-4354
+             </div>
+
 
          </ul>
 
