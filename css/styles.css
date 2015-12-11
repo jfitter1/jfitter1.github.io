@@ -91,21 +91,34 @@ letter-spacing: 1.5px;
     
 }
 .h2resume_personal{
+    color: red;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
+    margin-left: 100px;
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 1.5px;
     float:left;
 
 }
 .h2resume_technical{
+    color: red;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     float:right;
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+
+}
+.sub_resume_skills {
+    color:black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
     letter-spacing: 1.5px;
 
 }
@@ -185,7 +198,7 @@ IMAGES
     margin-top: 400px;
     margin-left: auto;
     margin-right: auto;
-    width: 17em;
+    width: 25em;
     border-radius: 50%;
 }
 
