@@ -76,6 +76,7 @@ letter-spacing: 1.5px;
     magin-bottom: 20px;
     color: whitesmoke;
     opacity: .79;
+    letter-spacing: 3px;
 }
 .bq{
     line-height: 28px;
@@ -201,6 +202,14 @@ IMAGES
     width: 25em;
     border-radius: 50%;
 }
+.imgcircle_bottom
+{
+    display: block;
+    float: right;
+    margin-right: 750px;
+    width: 3em;
+    border-radius: 50%;
+}
 
 /*****************************************************************
 
@@ -235,9 +244,9 @@ a {
   padding: .25em;
   text-decoration: none;
 }
-p a:hover {
-  background: red;
-  color: #E1332D;
+ li a:hover {
+  
+  color: red;
 }
 
 
@@ -255,12 +264,15 @@ FOOTER
 ******************************************************************/
 
 .contact{
-    width: 100%;
-    height:0;
-    display:inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    color: red;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    color: aliceblue;
     text-align: center;
 
 }
