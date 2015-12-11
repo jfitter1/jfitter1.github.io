@@ -43,15 +43,22 @@ header .h1_header {
 }
 .divCenter
 {
-text-align: center;  
-magin top: 50px; 
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
 }
     
 .h2resume{
-    margin-top: 100px;
-    text-align: center;
+
     border-bottom: 2px solid;
-    
+    width: 5em;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
 }
 .h2style {
     font-family: 'Roboto', sans-serif;
@@ -62,7 +69,10 @@ magin top: 50px;
     opacity: .79;
 }
 .bq{
+    line-height: 28px;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
     display: block;
     margin-top: 200px;
     margin-left: auto;
@@ -83,6 +93,25 @@ html, body {
 background: url(../img/squared_metal.png);
 }
 
+
+.b_border {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+    width: 28em;
+}
+
+.t_border {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid;
+    width: 28em;
+}
 /*****************************************************************
 
 IMAGES
@@ -97,7 +126,7 @@ display: block;
 margin-top: 400px;
 margin-left: auto;
 margin-right: auto;
-width: 15em;
+width: 17em;
 border-radius: 50%;
 }
 
@@ -135,7 +164,7 @@ a {
   text-decoration: none;
 }
 p a:hover {
-  background: white;
+  background: red;
   color: #E1332D;
 }
 
@@ -146,7 +175,6 @@ p a:hover {
 SOCIAL MEDIA ICONS
 
 ******************************************************************/
-
 
 /*****************************************************************
 
