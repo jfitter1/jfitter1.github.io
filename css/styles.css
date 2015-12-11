@@ -129,20 +129,15 @@ background: url(../img/squared_metal.png);
 IMAGES
 
 ******************************************************************/
-.SFCC_LOGO{
-    margin-top: 100px;
-    margin-right: 750px;
-    float: right;
-    width 100px;
-    height: 200px;
-    
-}
+
 .EWU_LOGO{
+display: block;
+text-align: center;
     margin-top: 100px;
-    margin-left: 750px;
-    float: left;
-    width 100px;
-    height: 200px;
+margin-left: auto;
+margin-right: auto;
+    width 150px;
+    height: 275px;
 
 }
 
