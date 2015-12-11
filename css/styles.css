@@ -55,10 +55,10 @@ header .h1_header {
 .h2resume{
 text-align: center;
 margin-top: 50px;
-    margin-bottom: 50px;
+margin-bottom: 50px;
 font-family: 'Oswald', sans-serif;
 font-size: 24px;
-    letter-spacing: 1.5px;
+letter-spacing: 1.5px;
     
 }
 .sub_resume {
@@ -68,7 +68,7 @@ font-size: 24px;
     letter-spacing: 1.5px;
     
 }
-}
+
 .h2style {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
