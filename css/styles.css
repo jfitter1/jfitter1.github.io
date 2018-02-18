@@ -216,11 +216,13 @@ div.col-lg-7 {
     left: 15px; } }
 
 /*Header*/
-div h2 a {
+a.headerLink {
   color: #FF1D79;
-  font-weight: 200; }
-  div h2 a:hover, div h2 a:visited {
-    color: #FF1D79; }
+  font-size: 1em;
+  font-style: italic; }
+  a.headerLink:hover, a.headerLink:visited {
+    color: #FF1D79;
+    font-size: 1em; }
 
 /*Footer*/
 footer {

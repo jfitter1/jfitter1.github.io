@@ -289,11 +289,13 @@ div.col-lg-7 {
     
 }
 /*Header*/
-div h2 a {
+a.headerLink {
     color: $color-1;
-    font-weight: 200;
+    font-size: 1em;
+    font-style: italic;
     &:hover, &:visited {
         color: $color-1;
+        font-size: 1em;
     }
     
 }
