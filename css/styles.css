@@ -215,6 +215,13 @@ div.col-lg-7 {
     height: 90px;
     left: 15px; } }
 
+/*Header*/
+div h2 a {
+  color: #FF1D79;
+  font-weight: 200; }
+  div h2 a:hover, div h2 a:visited {
+    color: #FF1D79; }
+
 /*Footer*/
 footer {
   display: -webkit-box;
