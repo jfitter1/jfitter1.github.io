@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
 
@@ -95,7 +96,11 @@ p {
 .circleContainer {
     margin-left: 50px;
     margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -112,8 +117,6 @@ p {
     width: 30px;
     height: 30px;
     background: $color-1;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
     border-radius: 50px;
 }
 
@@ -169,8 +172,6 @@ h4:before {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
     border-radius: 30px;
     background-color: $color-1;
 
@@ -202,18 +203,21 @@ ul li a {
 
     &::after {
         right: 0;
+        -webkit-transition: width 500ms ease;
         transition: width 500ms ease;
     }
 
     &:hover {
         &::before {
             width: 100%;
+            -webkit-transition: width 500ms ease;
             transition: width 500ms ease;
         }
 
         &::after {
             width: 100%;
             background: transparent;
+            -webkit-transition: 0;
             transition: 0;
         }
     }
@@ -221,8 +225,14 @@ ul li a {
 /*Helper classes*/
 
 .centerChild {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 /*Projects classes*/
@@ -281,8 +291,14 @@ div.col-lg-7 {
 
 /*Footer*/
 footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 10%;
     background-color: #fbfbfb;

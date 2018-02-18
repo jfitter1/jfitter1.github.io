@@ -85,8 +85,6 @@ p {
   width: 30px;
   height: 30px;
   background: #FF1D79;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
   border-radius: 50px; }
 
 ul {
@@ -125,8 +123,6 @@ h4:before {
   width: 10px;
   height: 10px;
   margin-right: 10px;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
   border-radius: 30px;
   background-color: #FF1D79; }
 
