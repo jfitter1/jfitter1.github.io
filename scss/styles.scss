@@ -250,12 +250,31 @@ div.col-lg-7 {
     bottom: 50px;
 }
 
+.contact {
+    position: fixed;
+    margin: auto;
+    width: 50px;
+    height: 110px;
+    background: url(../assets/img/contact.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    left: 30px;
+    top: 50px;
+}
+
 
 @media(max-width:768px) {
     .top {
         width: 20px;
         height: 80px;
         left: 10px;
+    }
+    .contact {
+         width: 20px;
+        height: 90px;
+        left: 15px;
+        
     }
     
 }

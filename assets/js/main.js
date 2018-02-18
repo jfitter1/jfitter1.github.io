@@ -47,3 +47,15 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         scrollTop : 100                       // Scroll to top of body
     }, 500);
 });
+
+
+// ===== Scroll to Top ==== 
+$('#go-to-bottom').click(function() {      // When arrow is clicked
+       $('html, body').animate({
+   scrollTop: $('footer').offset().top
+   //scrollTop: $('#your-id').offset().top
+   //scrollTop: $('.your-class').offset().top
+}, 'slow');
+
+});
+
