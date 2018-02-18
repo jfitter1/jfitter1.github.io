@@ -1,352 +1,197 @@
-/***************************************************************
-
-HEADLINES
-
-*****************************************************************/
-/* *********************************
-FONTS
-
-font-family: 'Roboto', sans-serif;
-font-family: 'Oswald', sans-serif;
-************************************/
+/*STYLES*/
 * {
-    margin: 0;
-}
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
 
-
-
-header{
-    width: 100%;
-    height:300px;
-    background:black;
-    opacity: .75;
-}
-
-header .h1_header {
-    
-    width: 100%;
-    display: inline-block;
-    margin-top: -2em;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-size: 4em;  
-    color:ghostwhite;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    margin-top: 50px;
-    letter-spacing: 0.05em;
-    clear: both;
-    text-align: center
- 
-
-    
-    
-}
-.divCenter
-{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100em;
-}
-    
-.h2resume{
-text-align: center;
-margin-top: 50px;
-margin-bottom: 50px;
-font-family: 'Oswald', sans-serif;
-font-size: 24px;
-letter-spacing: 1.5px;
-    
-}
-.sub_resume {
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    
-}
-
-.h2style {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    magin-bottom: 20px;
-    color: whitesmoke;
-    opacity: .79;
-    letter-spacing: 4px;
-}
-.bq{
-    line-height: 28px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
-    letter-spacing: 1px;
-    
-}
-.bq2{
-    line-height: 50px;
-    font-family: 'Cousine', bold;
-    font-weight: bold;
-    font-style: bold italic;
-    font-size: 40px;
-    text-align: center;
-    display: block;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
-    letter-spacing: 1px;
-
-}
-.bq3{
-    line-height: 28px;
-    font-style: italic;
-    font-family: 'Cousine',;
-    font-size: 35px;
-    text-align: center;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
-    letter-spacing: 1px;
-
-}
-
-.h2resume_personal{
-    color: red;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 32px;
-    letter-spacing: 1.5px;
-    float:left;
-
-}
-.h2resume_technical{
-    color: red;
-    text-align: center;
-    margin-top: 200px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    float:right;
-    font-family: 'Oswald', sans-serif;
-    font-size: 32px;
-    letter-spacing: 1.5px;
-
-}
-.sub_resume_skills {
-    color:black;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-
-}
-
-/***************************************************************
-
-Border
-
-*****************************************************************/
-
-html, body {
-background: url(../img/squared_metal.png);
-}
-
-
-.b_border {
-    margin-top: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid;
-    width: 28em;
-}
-.b_border_resume {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
-    font-size: 50px; 
-    margin-top: 400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid;
-    width: 20em;
-}
-.b_border_resume_skills {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
-    font-size: 50px; 
-    margin-top: 150px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid;
-    width: 20em;
-}
-
-.t_border {
-    margin-top: 100px;
-    margin-bottom: -160px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid;
-    width: 28em;
-}
-/*****************************************************************
-
-IMAGES
-
-******************************************************************/
-
-.EWU_LOGO{
- 
-    display: block;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-        width 150px;
-    height: 275px;
-}
-
-
-.imgcircle
-{
-    display: block;
-    margin-top: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25em;
-    border-radius: 50%;
-}
-.imgcircle_bottom
-{
-    display: block;
-    float: right;
-    margin-right: 750px;
-    width: 3em;
-    border-radius: 50%;
-}
-
-/*****************************************************************
-
-NAVIGATION
-
-******************************************************************/
-.wrap {
-    text-align: left;
-}
-
-li{
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    display:inline-block;
-    margin-right: 10px;
-    padding: 4px; 
-    font-size:1.3em;
-}
-
-
-/*****************************************************************
-
-BUTTONS
-
-******************************************************************/
-
+/*FONTS*/
+/*COLORS*/
+/*General Styles*/
 a {
-  background: rgba(255, 255, 255, 0);
-  border-bottom: 1px solid;
-  color: #fff;
-  line-height: 1.4;
-  padding: .25em;
+  text-decoration: none; }
+
+body,
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+li,
+ul,
+a {
+  font-family: "Open Sans", sans-serif; }
+
+span {
+  color: #FF1D79; }
+
+a:visited,
+a:hover {
+  color: #000; }
+
+h1 {
+  color: #FF1D79;
+  font-size: 2.5em;
+  padding-bottom: 20px;
+  line-height: 1.5; }
+
+h2 {
+  font-style: italic;
+  font-size: 600; }
+
+p {
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 2;
+  padding-bottom: 20px; }
+
+/*LAYOUT*/
+.container-2 {
+  margin-top: 30%;
+  margin-left: 15%;
+  padding: 0;
+  margin-right: 0; }
+
+@media (max-width: 768px) {
+  .container-2 {
+    margin-left: 40px;
+    margin-right: 0px;
+    padding-right: 20px; } }
+
+.circleContainer {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.circleContainer p {
+  display: inline-block;
+  padding-bottom: 0;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 1em; }
+
+#circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #FF1D79;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+ul {
+  list-style-type: none; }
+
+ul li a {
+  font-size: 1.8rem;
+  font-weight: 300; }
+
+ul li {
+  padding: 1.5rem;
+  padding-left: 4rem; }
+
+@media (max-width: 768px) {
+  ul li a {
+    font-size: 1.5rem; }
+  ul li {
+    padding: 1rem; } }
+
+section.web {
+  padding-top: 7%; }
+
+section.photography {
+  padding-top: 7%;
+  padding-bottom: 20%; }
+
+section.graphic {
+  padding-top: 7%; }
+
+h4 {
+  font-size: 1.3rem; }
+
+h4:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #FF1D79; }
+
+/*HOVER*/
+a {
+  color: #000;
+  font-weight: 300;
   text-decoration: none;
-}
- li a:hover {
-  
-  color: red;
-}
-
-
-
-/*****************************************************************
-
-ARROW
-
-******************************************************************/
-
-.arrow_down()
-/*****************************************************************
-
-FOOTER
-
-******************************************************************/
-
-.contact{
-    
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    margin-top: 10px;
-    color: aliceblue;
-    text-align: center;
-
-}
-.contact_info
-{
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    margin-top: 3px;
-    color: red;
-    text-align: center;
-    border-bottom: 2px solid aliceblue;
-    width: 10em;
-}
-.contact_info_1
-{
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    margin-top: 1px;
-    color: aliceblue;
-    text-align: center;
-
-}
-
-#footer {
+  letter-spacing: 2px;
+  position: relative; }
+  a::before, a::after {
+    content: '';
+    background: #FF1D79;
+    position: absolute;
+    top: 50%;
+    height: 5px;
+    width: 0; }
+  a::before {
+    left: 0; }
+  a::after {
+    right: 0;
+    -webkit-transition: width 500ms ease;
+    -o-transition: width 500ms ease;
+    transition: width 500ms ease; }
+  a:hover::before {
     width: 100%;
-    height:0;
-    background:black;
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 10em;
-    margin-top: -3em;
-    opacity: .5;
-}
+    -webkit-transition: width 500ms ease;
+    -o-transition: width 500ms ease;
+    transition: width 500ms ease; }
+  a:hover::after {
+    width: 100%;
+    background: transparent;
+    -webkit-transition: 0;
+    -o-transition: 0;
+    transition: 0; }
 
-#content { padding-bottom: 3em; }
+/*Helper classes*/
+.centerChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
-html, body, #container { height: 100%; }
+/*Projects classes*/
+.btn-projects {
+  padding: 5% 0 5% 0; }
+
+.top {
+  position: fixed;
+  margin: auto;
+  width: 50px;
+  height: 100px;
+  background: url(../assets/img/top.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  left: 30px;
+  bottom: 50px; }
+
+@media (max-width: 768px) {
+  .top {
+    width: 20px;
+    height: 80px;
+    left: 10px; } }
