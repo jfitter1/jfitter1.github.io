@@ -179,7 +179,7 @@ h4:before {
 
 /*HOVER*/
 
-a {
+ul li a {
     color: $color-2;
     font-weight: 300;
     text-decoration: none;
@@ -234,7 +234,9 @@ a {
 div.col-sm-10 {
     padding-right: 30px;
 }
-
+div.col-lg-7 {
+    padding-bottom: 10%;
+}
 .top {
     position: fixed;
     margin: auto;
@@ -256,4 +258,27 @@ div.col-sm-10 {
         left: 10px;
     }
     
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #fbfbfb;
+}
+
+footer h3 {
+    color: $color-2;
+    font-size: 2.5em;
+    font-weight: 300;
+    
+}
+
+footer h3 a {
+    color: $color-1;
+    &:hover {
+        color: $color-1;
+    }
 }

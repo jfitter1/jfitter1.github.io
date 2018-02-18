@@ -131,32 +131,32 @@ h4:before {
   background-color: #FF1D79; }
 
 /*HOVER*/
-a {
+ul li a {
   color: #000;
   font-weight: 300;
   text-decoration: none;
   letter-spacing: 2px;
   position: relative; }
-  a::before, a::after {
+  ul li a::before, ul li a::after {
     content: '';
     background: #FF1D79;
     position: absolute;
     top: 50%;
     height: 5px;
     width: 0; }
-  a::before {
+  ul li a::before {
     left: 0; }
-  a::after {
+  ul li a::after {
     right: 0;
     -webkit-transition: width 500ms ease;
     -o-transition: width 500ms ease;
     transition: width 500ms ease; }
-  a:hover::before {
+  ul li a:hover::before {
     width: 100%;
     -webkit-transition: width 500ms ease;
     -o-transition: width 500ms ease;
     transition: width 500ms ease; }
-  a:hover::after {
+  ul li a:hover::after {
     width: 100%;
     background: transparent;
     -webkit-transition: 0;
@@ -182,6 +182,9 @@ a {
 div.col-sm-10 {
   padding-right: 30px; }
 
+div.col-lg-7 {
+  padding-bottom: 10%; }
+
 .top {
   position: fixed;
   margin: auto;
@@ -199,3 +202,27 @@ div.col-sm-10 {
     width: 20px;
     height: 80px;
     left: 10px; } }
+
+/*Footer*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10%;
+  background-color: #fbfbfb; }
+
+footer h3 {
+  color: #000;
+  font-size: 2.5em;
+  font-weight: 300; }
+
+footer h3 a {
+  color: #FF1D79; }
+  footer h3 a:hover {
+    color: #FF1D79; }
