@@ -49,6 +49,10 @@ p {
   line-height: 2;
   padding-bottom: 20px; }
 
+@media (max-width: 768px) {
+  p, h2, span {
+    font-size: 1em; } }
+
 /*LAYOUT*/
 .container-2 {
   margin-top: 30%;
@@ -100,7 +104,7 @@ ul li {
 
 @media (max-width: 768px) {
   ul li a {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   ul li {
     padding: 1rem; } }
 
@@ -125,6 +129,10 @@ h4:before {
   margin-right: 10px;
   border-radius: 30px;
   background-color: #FF1D79; }
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 1rem; } }
 
 /*HOVER*/
 ul li a {
