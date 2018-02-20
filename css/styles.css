@@ -9,7 +9,8 @@
 /*COLORS*/
 /*General Styles*/
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 body,
 h1,
