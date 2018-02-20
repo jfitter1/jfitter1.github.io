@@ -23,6 +23,9 @@ $color-2: #000;
 a {
     text-decoration: none;
     color: black;
+    &:hover,&:visited {
+        color: black;
+    }
 }
 
 
