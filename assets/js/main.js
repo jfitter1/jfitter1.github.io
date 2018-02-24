@@ -59,3 +59,10 @@ $('#go-to-bottom').click(function() {      // When arrow is clicked
 
 });
 
+
+
+$('a').on('click touchend', function(e) {
+    var el = $(this);
+    var link = el.attr('href');
+    window.location = link;
+});
