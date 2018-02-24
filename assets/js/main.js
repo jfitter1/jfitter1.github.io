@@ -1,5 +1,5 @@
         AOS.init({
-            duration: 600,
+            duration: 900,
         })
 
         // Select all links with hashes
